@@ -8,7 +8,7 @@ Presentation général. Valeur en devenir. eager, async
 
 opération courante. map, flatmap, zip
 
--  Liste de future vers future de listes. Future.sequence, Future.traverse
+Liste de future vers future de listes. Future.sequence, Future.traverse
 
  Ne bloquez pas pour attendre le résultat d’une Future.  Ne jamais mettre d’Await, si vous le faites quand même mettez au moins un timeout.
 
@@ -27,15 +27,20 @@ Le mieux, utiliser un thread pool different pour les io, que pour le reste de l�
 
 ## Task
 
+Presentation générale. Lazy, async. Factory de Future
 
-
- Presentation générale. Lazy, async. Factory de Future
 Création d’une task
+
 Batching 
+
 Execution context ( scheduler requis uniquement au moment de lancer l’execution)
+
 Specification d’un scheduler spécifique 
+
 Memoisation 
+
 Cancelable/nettoyage des ressources
+
 Execution repoussée aux frontieres du programme
 
 
