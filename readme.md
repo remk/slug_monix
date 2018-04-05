@@ -1,7 +1,7 @@
-Plan presentation slug avril 2018
+# Plan presentation slug avril 2018
 
 
-Future
+## Future
 
 
 Presentation général. Valeur en devenir. eager, async
@@ -25,7 +25,7 @@ Le mieux, utiliser un thread pool different pour les io, que pour le reste de l�
 
 
 
-Task
+## Task
 
 
 
@@ -36,10 +36,11 @@ Execution context ( scheduler requis uniquement au moment de lancer l’executio
 Specification d’un scheduler spécifique 
 Memoisation 
 Cancelable/nettoyage des ressources
+Execution repoussée aux frontieres du programme
 
 
 
-Conclusion
+## Conclusion
 
 Par rapport aux Futures, les Tasks Monix permettent une gestion plus fine sur l’exécution du programme. Permettant une meilleure comprehension ainsi que de meilleurs performances si bien utilisées. 
 
